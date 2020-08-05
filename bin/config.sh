@@ -1,6 +1,5 @@
 #!/bin/ksh
 fw_update
-
 echo "Create /etc/hostname.iwn0 with the following content followed by exit"
 echo "join [ssid] wpakey [passphrase]"
 echo "dhcp"
@@ -16,6 +15,4 @@ rcctl enable apmd
 rcctl set apmd flags -A
 rcctl start apmd
 usermod -G staff olav
-
-
-
+pkg_add chromium
