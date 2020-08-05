@@ -15,4 +15,6 @@ xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Button" 2
 xinput set-prop "/dev/wsmouse" "WS Pointer Wheel Emulation Axes" 6 7 4 5 
 # use caps as ctrl
 setxkbmap no -option ctrl:nocaps
+# Increase TrackPoint acceleration
+xinput set-prop /dev/wsmouse "Device Accel Constant Deceleration" 0.2
 exec cwm
