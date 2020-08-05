@@ -1,1 +1,1 @@
-My OpenBSD configuration. This is largely based on [[https://www.c0ffee.net/blog/openbsd-on-a-laptop/#cwm]]
+My OpenBSD configuration. This is largely based on [[https://www.c0ffee.net/blog/openbsd-on-a-laptop]]
