@@ -1,1 +1,3 @@
 My OpenBSD configuration. This is largely based on [[https://www.c0ffee.net/blog/openbsd-on-a-laptop]]
+
+=bin/config.sh= configures and sets up the system. It is only intended to work for me with my hardware.
