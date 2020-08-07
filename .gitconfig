@@ -36,6 +36,9 @@
 	# check[o]ut - no mnemonic
 	o = checkout
 
+	# [p]ush
+	p = push
+
 	# [r]estore
 	r = restore
 
@@ -46,4 +49,4 @@
 	t = tag
 
 	# p[u]ll - no mnemonic
-	p = push
+	u = pull
