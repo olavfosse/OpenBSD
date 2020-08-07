@@ -1,6 +1,10 @@
 [user]
 	name = Olav Fosse
 	email = fosseolav@gmail.com
+# The name of aliases are made by taking the start 
+
+# The aliases use this form:
+# [x characters from the start of command][x characters from the start of flag]
 [alias]
 	a = add
 	c = commit
