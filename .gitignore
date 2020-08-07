@@ -1,6 +1,6 @@
-# I ignore most files as since this repository is located in my home directory
+# Ignore most files since this repository is located in the home directory
 *
-# Whenever a file should be tracked I manually un-ignore them here
+# Manually un-ignore a file whenever it should be tracked
 !.config
 !bin
 !Xresources
