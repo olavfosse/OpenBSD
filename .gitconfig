@@ -11,3 +11,4 @@
 	t = tag
 	s = status
 	d = diff
+	l = log
