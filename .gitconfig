@@ -9,3 +9,5 @@
 	p = push
 	pu = pull
 	t = tag
+	s = status
+	d = diff
