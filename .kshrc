@@ -1,3 +1,4 @@
+export PATH="$HOME/bin:$PATH"
 export EDITOR=vi
 export FCEDIT=$EDITOR
 export PAGER=less
