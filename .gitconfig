@@ -15,4 +15,5 @@
 	t = tag
 	s = status
 	d = diff
+	ds = diff --staged
 	l = log
