@@ -20,6 +20,7 @@
 	c = commit
 	ca = commit --amend
 	cm = commit --message
+	cam = commit --amend --message
 
 	# [d]iff
 	d = diff
