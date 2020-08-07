@@ -90,6 +90,7 @@ command xterm  xterm
 command chrome "chrome --enable-unveil"
 command xclock xclock
 command xcalc  xcalc
+command emacs emacs
 
 # ignore these windows when tiling/cycling
 ignore xclock
