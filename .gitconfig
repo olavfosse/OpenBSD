@@ -8,6 +8,7 @@
 [alias]
 	a = add
 	c = commit
+	cm = commit --message
 	ch = checkout
 	b = branch
 	p = push
@@ -17,3 +18,6 @@
 	d = diff
 	ds = diff --staged
 	l = log
+	cg = config --global
+	ai = add --interactive
+	ap = add --patch
