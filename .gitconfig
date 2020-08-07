@@ -2,23 +2,47 @@
 	name = Olav Fosse
 	email = fosseolav@gmail.com
 
-# The aliases use the following form
-# [x characters from the start of command][x characters from the start of flag]
+# Use the following form
+# [lowercase character representing the command or flag]*
+# Use unique mnemonics, which do not conflict with other mnemonics of the same type(flag or command) where possible.
+# Feel free to submit a pr or issue suggesting mnemonics where they are missing. Make sure that the command is unused.
+# Commands without mnemonics are marked with "- no mnemonic".
 [alias]
+	# [a]dd
 	a = add
-	c = commit
-	cm = commit --message
-	ca = commit --amend
-	ch = checkout
-	b = branch
-	p = push
-	pu = pull
-	t = tag
-	s = status
-	d = diff
-	ds = diff --staged
-	l = log
-	cg = config --global
 	ai = add --interactive
 	ap = add --patch
+
+	# [b]ranch
+	b = branch
+
+	# [c]ommit
+	c = commit
+	ca = commit --amend
+	cm = commit --message
+
+	# [d]iff
+	d = diff
+	ds = diff --staged
+
+	# con[f]ig - no mnemonic
+	f = config
+	fg = config --global
+
+	# [l]og
+	l = log
+
+	# check[o]ut - no mnemonic
+	o = checkout
+
+	# [r]estore
 	r = restore
+
+	# [s]tatus
+	s = status
+
+	# [t]ag
+	t = tag
+
+	# p[u]ll - no mnemonic
+	p = push
