@@ -20,3 +20,4 @@
 	cg = config --global
 	ai = add --interactive
 	ap = add --patch
+	r = restore
