@@ -1,4 +1,4 @@
-export EDITOR=mg
+export EDITOR=vi
 export FCEDIT=$EDITOR
 export PAGER=less
 export LESS='-iMRS -x2'
