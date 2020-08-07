@@ -1,17 +1,14 @@
-Downloads
-.Xauthority
-.cshrc
-.cvsrc
-.ksh_history
-.login
-.mailrc
-.mg.d
-.ssh
-.xsession-errors
-.pki
-.dbus
-.config/chromium
-.config/user-dirs.dirs
-.dbus
-.pki
-.cache
+# I ignore most files as since this repository is located in my home directory
+*
+# Whenever a file should be tracked I manually un-ignore them here
+!.config
+!bin
+!Xresources
+!.cwmrc
+!.gitconfig
+!.gitignore
+!.kshrc
+!.mg
+!.profile
+!.xsession
+!README.org
