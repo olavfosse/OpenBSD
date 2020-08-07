@@ -8,6 +8,7 @@
 	a = add
 	c = commit
 	cm = commit --message
+	ca = commit --amend
 	ch = checkout
 	b = branch
 	p = push
