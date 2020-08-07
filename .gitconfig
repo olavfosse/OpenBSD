@@ -1,3 +1,11 @@
 [user]
 	name = Olav Fosse
 	email = fosseolav@gmail.com
+[alias]
+	a = add
+	c = commit
+	ch = checkout
+	b = branch
+	p = push
+	pu = pull
+	t = tag
