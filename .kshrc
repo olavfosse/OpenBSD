@@ -14,6 +14,7 @@ set -o emacs
 alias ..='cd ..'
 alias ...='cd ...'
 alias mkdir='mkdir -p'
+alias g='git'
 
 # nice colored prompt that also sets xterm title
 _XTERM_TITLE='\[\033]0;\u@\h:\w\007\]'
