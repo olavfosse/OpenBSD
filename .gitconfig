@@ -30,6 +30,11 @@
 	f = config
 	fg = config --global
 
+	# stas[h] - no mnemonic
+	h = stash
+	hl = stash list
+	hm = stash --message
+
 	# [l]og
 	l = log
 
