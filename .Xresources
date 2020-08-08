@@ -99,3 +99,6 @@ XTerm*on2Clicks              : word
 XTerm*on3Clicks              : line
 ! shift + left click to open selection in web browser
 XTerm*VT100*Translations     : #override Shift : exec-formatted("chrome --enable-unveil '%t'", PRIMARY)
+! Use a truetype font and size.
+xterm*faceName: Monospace
+xterm*faceSize: 14
