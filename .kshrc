@@ -24,4 +24,4 @@ set -o emacs
 alias ..='cd ..'
 alias mkdir='mkdir -p'
 alias g='git'
-
+alias untargz='tar -xzf'
