@@ -46,7 +46,7 @@
 
 	# [r]estore
 	r = restore
-	rc = restore --cached
+	rs = restore --staged
 
 	# [s]tatus
 	s = status
