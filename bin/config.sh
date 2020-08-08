@@ -1,4 +1,7 @@
 #!/bin/ksh
+# This script is messy and not intended for others
+# It is meant to be ran immediately after performing the base OpenBSD installation on *my* machine.
+
 fw_update
 echo "Create /etc/hostname.iwn0 with the following content followed by exit"
 echo "join [ssid] wpakey [passphrase]"
