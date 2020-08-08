@@ -31,19 +31,6 @@ XLock.password    : password:
 XLock.font        : -misc-fixed-medium-r-normal-*-15-*-*-*-*-*-iso10646-1
 XLock.planfont    : -misc-fixed-medium-r-normal-*-13-*-*-*-*-*-iso10646-1
 
-! ===== xclock
-! digital clock in lower right-hand corner
-XClock*analog      : false
-XClock*twentyfour  : true
-XClock*padding     : 0
-XClock*geometry    : -2-2
-XClock*render      : false
-XClock*font        : -misc-fixed-bold-r-normal-*-13-*-*-*-*-*-iso10646-1
-XClock*height      : 12
-XClock*background  : dimgray
-XClock*foreground  : white
-XClock*borderWidth : 0
-
 ! ===== xterm
 ! zenburn theme - http://kippura.org/zenburnpage
 XTerm*background     : #3f3f3f

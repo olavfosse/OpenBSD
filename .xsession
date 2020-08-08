@@ -4,9 +4,6 @@ xrdb -merge $HOME/.Xresources
 xsetroot -solid dimgray
 # lock display period of inactivity
 xidle &
-# xclock has a bug where the font selection is ignored when UTF-8
-# is enabled, so we unset LANG here.
-LANG= xclock -strftime "%a %e %b %Y %H:%M" &
 # disable beep
 xset b off
 # Enable TrackPoint scrolling on ThinkPad

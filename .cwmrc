@@ -1,6 +1,5 @@
 sticky yes
 snapdist 4
-gap 0 14 0 0 # Space fro xclock
 fontname "fixed:pixelsize=13:style=semicondensed"
 unbind-key all
 
@@ -85,12 +84,8 @@ bind-mouse 4-3 window-resize
 bind-mouse 4-2 window-lower
 bind-mouse 4S-2 window-hide
 
-# these commands will appear in the command menu
+# command menu
 command xterm  xterm
 command chrome "chrome --enable-unveil"
-command xclock xclock
 command xcalc  xcalc
 command emacs emacs
-
-# ignore these windows when tiling/cycling
-ignore xclock
