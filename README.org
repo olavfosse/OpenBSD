@@ -1,3 +1,14 @@
-My OpenBSD configuration. This is largely based on [[https://www.c0ffee.net/blog/openbsd-on-a-laptop]]
-
-=bin/config.sh= configures and sets up the system. It is only intended to work for me with my hardware.
+* Setup
+** Configure doas
+```sh
+su
+echo "permit nopass keepenv [username]" > /etc/doas.conf # Keep in mind $USER is root here. There [username] needs to be manually replaced with your username.
+exit
+** Install the configuration
+```
+doas pkg_add git
+git clone https://github.com/olav35/openbsd /tmp/openbsd
+mv /tmp/openbsd/* ~
+mv /tmp/openbsd/.* ~
+```
+At this point the system is configured to use my cwm configuration instead of the default fvwm based one. Now you should reboot to enter a much more pleasurable window manager (imo). Therein pressing 4-Return opens xterm. 4-Return is cwm for Win-Enter.
