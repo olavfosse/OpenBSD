@@ -34,3 +34,9 @@ ffmpeg itself is also great for screen recording, converting, resizing and a mil
 #+BEGIN_SRC sh
 doas pkg_add ffmpeg
 #+END_SRC
+
+A browser is also needed. I use Chromium because Chrome and its descendants(which is to say basically every modern browser except Safari and firefox) are unfortunately the de facto standard for web development which I care about. Firefox is also available in the official repositories and should just work. Unfortunately there is no Brave at the moment.
+#+BEGIN_SRC sh
+doas pkg_add chromium
+#+END_SRC
+
