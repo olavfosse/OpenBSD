@@ -38,7 +38,7 @@
 	# [l]og
 	l = log
 
-	# r[m]
+	# r[m] - no mnemonic
 	m = rm
 
 	# check[o]ut - no mnemonic
