@@ -1,14 +1,16 @@
 * Setup
+** Install the base system
 ** Configure doas
-```sh
+#+BEGIN_SRC sh
 su
 echo "permit nopass keepenv [username]" > /etc/doas.conf # Keep in mind $USER is root here. There [username] needs to be manually replaced with your username.
 exit
+#+END_SRC
 ** Install the configuration
-```
+#+BEGIN_SRC sh
 doas pkg_add git
 git clone https://github.com/olav35/openbsd /tmp/openbsd
 mv /tmp/openbsd/* ~
 mv /tmp/openbsd/.* ~
-```
-At this point the system is configured to use my cwm configuration instead of the default fvwm based one. Now you should reboot to enter a much more pleasurable window manager (imo). Therein pressing 4-Return opens xterm. 4-Return is cwm for Win-Enter.
+#+END_SRC
+Now the system is configured to use my cwm configuration instead of the default fvwm based one. At this point you should reboot to enter a much more pleasurable window manager (imo). Therein pressing 4-Return opens xterm. 4-Return is cwm for Win-Enter.
