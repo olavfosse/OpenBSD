@@ -43,6 +43,7 @@
 
 	# [p]ush
 	p = push
+	pot = push origin tag # "push origin" by itself also works, but I prefer to be explicit
 
 	# [r]estore
 	r = restore
