@@ -3,7 +3,7 @@ This is my OpenBSD configuration. Below are instructions for installing and sett
 ** Install the base system
 Follow the instructions at https://www.openbsd.org/faq/faq4.html.
 
-The following assumes that you have succesfully installed OpenBSD base, are connected to the Internet via Ethernet and are using hardware sufficient drivers.
+The following assumes that you have succesfully installed OpenBSD base, are connected to the Internet via Ethernet and are using hardware with sufficient drivers.
 ** Configure doas
 #+BEGIN_SRC sh
 su
