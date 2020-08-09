@@ -88,4 +88,4 @@ XTerm*on3Clicks              : line
 XTerm*VT100*Translations     : #override Shift : exec-formatted("chrome --enable-unveil '%t'", PRIMARY)
 ! Use a truetype font and size.
 xterm*faceName: Monospace
-xterm*faceSize: 14
+xterm*faceSize: 11
