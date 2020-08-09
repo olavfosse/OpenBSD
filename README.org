@@ -1,11 +1,13 @@
 * Setup
 ** Install the base system
+
 ** Configure doas
 #+BEGIN_SRC sh
 su
 echo "permit nopass keepenv [username]" > /etc/doas.conf # Keep in mind $USER is root here. There [username] needs to be manually replaced with your username.
 exit
 #+END_SRC
+
 ** Install the configuration
 #+BEGIN_SRC sh
 doas pkg_add git
@@ -14,3 +16,21 @@ mv /tmp/openbsd/* ~
 mv /tmp/openbsd/.* ~
 #+END_SRC
 Now the system is configured to use my cwm configuration instead of the default fvwm based one. At this point you should reboot to enter a much more pleasurable window manager (imo). Therein pressing 4-Return opens xterm. 4-Return is cwm for Win-Enter.
+
+** Install propietary firmware packages
+#+BEGIN_SRC sh
+doas fw_update
+#+END_SRC
+
+** Install other essential packages
+Generally I try to rely on OpenBSD utilities as much as possible, but there are some packages I cannot live without.
+
+I believe the only media player in OpenBSD base is aucat. Aucat only plays waw, aiff and au files which is not enough for me. ffplay which is included in the ffmpeg package plays... A lot (run =ffplay -formats= for a nice wall of text).
+
+To use ffplay you should know at least two options. Those are =-nodisp= and =-autoexit=. =-nodisp= removes the annoying visualization (might want to keep that on for videos and images though ;)) and =-autoexit= closes the player when it reaches the end of a media file. The default behavior is to keep ffplay running without playing anying which I find quite puzzling.
+
+ffmpeg itself is also great for screen recording, converting, resizing and a million other things.
+
+#+BEGIN_SRC sh
+doas pkg_add ffmpeg
+#+END_SRC
