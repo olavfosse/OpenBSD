@@ -27,6 +27,28 @@ Now the system is configured to use my cwm configuration instead of the default 
 doas fw_update
 #+END_SRC
 
+** Set up WiFi
+Whereas configuring WiFI on Linux is a total mess involving many different tools on OpenBSD you just need one tool and a text editor.
+
+Run the following command to list your network interfaces.
+#+BEGIN_SRC sh
+doas ifconfig
+#+END_SRC
+
+The WiFi interface will probably be called iwn0 or contain be in the wlan group.
+
+To configure a WiFi connection write the following to =/etc/hostname.[network_interface]=.
+> :warning: Unless you have encrypted your storage unit this will store your WiFi password in plain text.
+#+BEGIN_SRC
+join [ssid] wpakey [password]
+dhcp
+inet6 autoconf
+#+END_SRC
+
+More networks can be added by appending join declarations after the current one.
+
+Now plug out your Ethernet cable, =doas reboot= your machine and =ping fossegr.im=.
+
 ** Install other essential packages
 I generally try relying on base software as much as possible, but there are some packages I cannot live without.
 
