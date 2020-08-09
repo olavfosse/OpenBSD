@@ -11,6 +11,8 @@ echo "permit nopass keepenv [username]" > /etc/doas.conf # Keep in mind $USER is
 exit
 #+END_SRC
 
+doas works a lot like sudo. It lets you run commands as root from another user. The nopass keyword lets us run commands as root without having to type our password. If you do not want this to be the case you can simply remove that keyword.
+
 ** Install the configuration
 #+BEGIN_SRC sh
 doas pkg_add git
