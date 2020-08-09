@@ -1,17 +1,17 @@
 This is my OpenBSD configuration. Below are instructions for installing and setting up the system.
 
-* Install the base system
+** Install the base system
 Follow the instructions at https://www.openbsd.org/faq/faq4.html.
 
 The following assumes that you have succesfully installed OpenBSD base and are connected to the Internet via Ethernet.
-* Configure doas
+** Configure doas
 #+BEGIN_SRC sh
 su
 echo "permit nopass keepenv [username]" > /etc/doas.conf # Keep in mind $USER is root here. There [username] needs to be manually replaced with your username.
 exit
 #+END_SRC
 
-* Install the configuration
+** Install the configuration
 #+BEGIN_SRC sh
 doas pkg_add git
 git clone https://github.com/olav35/openbsd /tmp/openbsd
@@ -20,12 +20,12 @@ mv /tmp/openbsd/.* ~
 #+END_SRC
 Now the system is configured to use my cwm configuration instead of the default fvwm based one. At this point you should reboot to enter a much more pleasurable window manager (imo). Therein pressing 4-Return opens xterm. 4-Return is cwm for Win-Enter.
 
-* Install propietary firmware packages
+** Install propietary firmware packages
 #+BEGIN_SRC sh
 doas fw_update
 #+END_SRC
 
-* Install other essential packages
+** Install other essential packages
 I generally try relying on base software as much as possible, but there are some packages I cannot live without.
 
 I believe the only media player in OpenBSD base is aucat. Aucat only plays waw, aiff and au files which is not enough for me. ffplay which is included in the ffmpeg package plays... A lot (run =ffplay -formats= for a nice wall of text).
@@ -50,7 +50,7 @@ nvi is a vi clone that supports wide characters. Aside from that it is mostly th
 doas pkg_add nvi
 #+END_SRC
 
-* Conclusion
+** Conclusion
 If you are to use this configuration is suggest taking a peek at all the files. There are only 11 non-directory files and they should all be well readable. If you do not understand something, that is a bug and I will do my best to fix it :). Remember that man pages are your friend and are worth consulting before me for your own sake. The OpenBSD man pages are much better than that of Linux / GNU and most other software projects you will run into.
 
 Happy Hacking!
