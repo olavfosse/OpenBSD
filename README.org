@@ -40,3 +40,9 @@ A browser is also needed. I use Chromium because Chrome and its descendants(whic
 doas pkg_add chromium
 #+END_SRC
 
+Aside from ed the editors in base are vi and mg. Leaving aside historical reasons, mg is to emacs as vi is to vim. That is to say a more limited and minimal version. In fact mg and vi are so limited that neither of them supports unicode.
+
+nvi is a vi clone that supports wide characters. Aside from that it is mostly the same as base vi.
+#+BEGIN_SRC sh
+doas pkg_add nvi
+#+END_SRC
