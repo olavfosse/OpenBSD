@@ -38,6 +38,9 @@
 	# [l]og
 	l = log
 
+	# r[m]
+	m = rm
+
 	# check[o]ut - no mnemonic
 	o = checkout
 
