@@ -1,6 +1,7 @@
 # Ignore most files since this repository is located in the home directory
 *
 # Manually un-ignore a file whenever it should be tracked
+!bin
 !bin/*
 !Xresources
 !.cwmrc
