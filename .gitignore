@@ -10,7 +10,9 @@
 !.config
 !.config/git
 # Glob is not used here since user data is stored in .config/git/user
+!.config/git/alias
 !.config/git/config
+!.config/git/core
 
 !.Xresources
 !.cwmrc
