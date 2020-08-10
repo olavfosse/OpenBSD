@@ -38,7 +38,9 @@ doas ifconfig
 The WiFi interface will probably be called iwn0 or contain be in the wlan group.
 
 To configure a WiFi connection write the following to =/etc/hostname.[network_interface]=.
-> :warning: Unless you have encrypted your storage unit this will store your WiFi password in plain text.
+
+*WARNING* Unless you have encrypted your storage unit this will store your WiFi password in plain text.
+
 #+BEGIN_SRC
 join [ssid] wpakey [password]
 dhcp
