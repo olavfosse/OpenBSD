@@ -1,18 +1,20 @@
 # Ignore most files since this repository is located in the home directory
 *
 # Manually un-ignore a file whenever it should be tracked
+!README.org
+!.gitignore
+
 !bin
 !bin/*
+
 !.config
 !.config/git
-!.config/git/*
-!Xresources
+# Glob is not used here since user data is stored in .config/git/user
+!.config/git/config
+
+!.Xresources
 !.cwmrc
-!.gitconfig
-!.gitignore
 !.kshrc
-!.mg
 !.profile
 !.xsession
-!README.org
 !.exrc
