@@ -1,6 +1,5 @@
-[user]
-	name = Olav Fosse
-	email = fosseolav@gmail.com
+[include]
+	path = user
 
 # Use the following form
 # [lowercase character representing the command or flag]*
