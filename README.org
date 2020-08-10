@@ -76,6 +76,13 @@ nvi is a vi clone that supports wide characters. Aside from that it is mostly th
 doas pkg_add nvi
 #+END_SRC
 
+** Power management
+#+BEGIN_SRC
+doas rcctl enable apmd
+doas rcctl set apmd flags -A
+doas rcctl start apmd
+#+END_SRC
+
 ** Conclusion
 If you are to use this configuration is suggest taking a peek at all the files. There are only 11 non-directory files and they should all be well readable. If you do not understand something, that is a bug and I will do my best to fix it :). Remember that man pages are your friend and are worth consulting before me for your own sake. The OpenBSD man pages are much better than that of Linux / GNU and most other software projects you will run into.
 
