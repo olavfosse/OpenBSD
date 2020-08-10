@@ -3,6 +3,9 @@
 # Manually un-ignore a file whenever it should be tracked
 !bin
 !bin/*
+!.config
+!.config/git
+!.config/git/*
 !Xresources
 !.cwmrc
 !.gitconfig
