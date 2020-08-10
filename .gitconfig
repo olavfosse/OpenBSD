@@ -26,6 +26,9 @@
 	d = diff
 	ds = diff --staged
 
+	# clon[e] - no mnemonic
+	e = clone
+
 	# con[f]ig - no mnemonic
 	f = config
 	fg = config --global
