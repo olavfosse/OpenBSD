@@ -1,7 +1,6 @@
 export LANG=en_US.UTF-8
 export ENV=$HOME/.kshrc
 xrdb -merge $HOME/.Xresources
-xsetroot -solid dimgray
 # lock display period of inactivity
 xidle &
 # disable beep
