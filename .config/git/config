@@ -1,4 +1,4 @@
 [include]
 	path = alias
-	path = core
+	path = core # This contains user data and is therefore not version controlled
 	path = user
