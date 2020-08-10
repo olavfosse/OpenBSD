@@ -1,0 +1,25 @@
+#!/bin/sh
+# Synopsis
+# ------------------------------------------------------------------------------
+# Configure GitHub SSH key authentication
+#
+
+email="$(git config --get user.email)"
+[ "$email" = '' ] && echo 'No git email' && exit 1
+
+ssh-keygen -t rsa -b 4096 -C "$email"
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+echo Copy the following key.
+cat ~/.ssh/id_rsa.pub
+echo Shift-PrtSc copies text from xterm without terminating the script as opposed to Ctrl-c.
+echo Add the key to https://github.com/settings/keys.
+echo Press Return to open the page.
+read
+xdg-open https://github.com/settings/keys > /dev/null # This generates some garbage output by default
+
+echo Press Return to run \'ssh -T git@github.com\' which will confirm if you are succesfully authenticated
+read
+ssh -T git@github.com
