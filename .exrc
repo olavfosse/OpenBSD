@@ -1,5 +1,4 @@
-" All these settings are succintly documented in VI(1)
-" Therefore describing what these lines do here is redundant 
+" See VI(1)
 set showmode
 set showmatch
 set ruler
