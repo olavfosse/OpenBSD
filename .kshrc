@@ -1,4 +1,4 @@
-# All the variables set here are documented i KSH(1)
+# All the variables set here are documented in KSH(1)
 HISTFILE=$HOME/.ksh_history
 HISTSIZE=20000
 
