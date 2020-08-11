@@ -22,3 +22,4 @@ alias v="$EDITOR"
 
 set -A complete_sftp shiina.fossegr.im
 set -A complete_ssh shiina.fossegr.im
+set -A complete_songs play download # See bin/songs
