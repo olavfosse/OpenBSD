@@ -6,7 +6,6 @@
 [alias]
         # [a]dd
         a = add
-        ai = add --interactive
         ap = add --patch
 
         # [b]ranch
@@ -22,9 +21,6 @@
         d = diff
         ds = diff --staged
 
-        # clon[e] - no mnemonic
-        e = clone
-
         # con[f]ig - no mnemonic
         f = config
         fg = config --global
@@ -36,6 +32,8 @@
 
 	# [l]og
 	l = log
+	lp = log --patch
+	lpf = log --patch --follow # View history of file including renames
 
         # r[m] - no mnemonic
         m = rm
