@@ -1,8 +1,5 @@
 # Use the following form
 # [lowercase character representing the command or flag]*
-# Use unique mnemonics, which do not conflict with other mnemonics of the same type(flag or command) where possible.
-# Feel free to submit a pr or issue suggesting mnemonics where they are missing. Make sure that the command is unused.
-# Commands without mnemonics are marked with "- no mnemonic".
 [alias]
         # [a]dd
         a = add
@@ -21,25 +18,10 @@
         d = diff
         ds = diff --staged
 
-        # con[f]ig - no mnemonic
-        f = config
-        fg = config --global
-
-        # stas[h] - no mnemonic
-        h = stash
-        hl = stash list
-        hm = stash --message
-
 	# [l]og
 	l = log
 	lp = log --patch
 	lpf = log --patch --follow # View history of file including renames
-
-        # r[m] - no mnemonic
-        m = rm
-
-        # check[o]ut - no mnemonic
-        o = checkout
 
         # [p]ush
         p = push
@@ -54,6 +36,3 @@
 
         # [t]ag
         t = tag
-
-        # p[u]ll - no mnemonic
-        u = pull
