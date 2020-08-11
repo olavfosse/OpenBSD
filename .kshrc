@@ -1,19 +1,19 @@
-export PATH="$HOME/bin:$PATH"
-export EDITOR=nvi
-export FCEDIT=$EDITOR
-export PAGER=less
-export LESS='-iMRS -x2'
-export LANG=en_US.UTF-8
-export LC_CTYPE=en_US.UTF-8
-export CLICOLOR=1
-
 HISTFILE=$HOME/.ksh_history
 HISTSIZE=20000
-
 set -o emacs
+# For whatever reason ~/bin is only prepended to path in login shells by default
 
-alias ..='cd ..'
-alias mkdir='mkdir -p'
+export PATH="$HOME/bin:$PATH"
+export LANG=en_US.UTF-8
+export PAGER=less
+export EDITOR=nvi
+export FCEDIT=nvi # See KSH(1)
+
+alias un-tar.gz='tar -xzf'
+alias c='cd'
 alias g='git'
-alias untargz='tar -xzf'
-alias vi='nvi'
+alias m='mkdir -p'
+alias r='rm'
+alias v='nvi'
+alias shiina-shell='ssh shiina.fossegr.im'
+alias shiina-files='sftp shiina.fossegr.im'
