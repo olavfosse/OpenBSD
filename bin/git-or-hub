@@ -3,4 +3,4 @@
 # ------------------------------------------------------------------------------
 # Run hub if it is in $PATH otherwise run git
 #
-(which hub > /dev/null 2>&1 && hub $@) || git $@
+(which hub > /dev/null 2>&1 && hub "$@") || git "$@"
