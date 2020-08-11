@@ -13,9 +13,7 @@ export PAGER=less
 export FCEDIT="$EDITOR"
 export PS1='$ '
 
-# Alias hub to g if hub is in $PATH
-# Technically this is slighly flawed since it requires reloading the shell to load when adding or deleting the package.
-alias g="$(which hub > /dev/null 2>&1 && echo hub || echo git)"
+alias g="git-or-hub"
 alias un-tar.gz='tar -xzf'
 alias c='cd'
 alias m='mkdir -p'
@@ -25,4 +23,4 @@ alias v="$EDITOR"
 
 set -A complete_sftp shiina.fossegr.im
 set -A complete_ssh shiina.fossegr.im
-set -A complete_songs play download # See bin/songs
+set -A complete_songs play download
