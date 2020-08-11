@@ -3,36 +3,45 @@
 [alias]
         # [a]dd
         a = add
+	ah = add --help
         ap = add --patch
 
         # [b]ranch
         b = branch
+        bh = branch --help
 
         # [c]ommit
         c = commit
+        ch = commit --help
         ca = commit --amend
         cm = commit --message
         cam = commit --amend --message
 
         # [d]iff
         d = diff
+        dh = diff --help
         ds = diff --staged
 
 	# [l]og
 	l = log
+	lh = log --help
 	lp = log --patch
 	lpf = log --patch --follow # View history of file including renames
 
         # [p]ush
         p = push
+        ph = push --help
         pot = push origin tag # "push origin" by itself also works, but this is more explicit
 
         # [r]estore
         r = restore
+        rh = restore --help
         rs = restore --staged
 
         # [s]tatus
         s = status
+        sh = status --help
 
         # [t]ag
         t = tag
+        th = tag --help
