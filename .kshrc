@@ -10,7 +10,7 @@ export EDITOR=nvi
 set -o emacs
 
 export PAGER=less
-export FCEDIT=nvi
+export FCEDIT="$EDITOR"
 
 alias un-tar.gz='tar -xzf'
 alias c='cd'
@@ -18,7 +18,7 @@ alias g='git'
 alias m='mkdir -p'
 alias p='pwd'
 alias r='rm -d'
-alias v='nvi'
+alias v="$EDITOR"
 
 set -A complete_sftp shiina.fossegr.im
 set -A complete_ssh shiina.fossegr.im
