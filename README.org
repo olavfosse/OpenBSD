@@ -76,6 +76,11 @@ nvi is a vi clone that supports wide characters. Aside from that it is mostly th
 doas pkg_add nvi
 #+END_SRC
 
+I also install hub although it is not in any way coupled with the res t of the system.
+#+BEGIN_SRC sh
+doas pkg_add hub
+#+END_SRC
+
 ** Power management
 #+BEGIN_SRC
 doas rcctl enable apmd

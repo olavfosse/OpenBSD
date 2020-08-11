@@ -12,9 +12,11 @@ set -o emacs
 export PAGER=less
 export FCEDIT="$EDITOR"
 
+# Alias hub to g if hub is in $PATH
+# Technically this is slighly flawed since it requires reloading the shell to load when adding or deleting the package.
+alias g="$(which hub > /dev/null 2>&1 && echo hub || echo git)"
 alias un-tar.gz='tar -xzf'
 alias c='cd'
-alias g='git'
 alias m='mkdir -p'
 alias p='pwd'
 alias r='rm -d'
