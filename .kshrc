@@ -11,6 +11,7 @@ set -o emacs
 
 export PAGER=less
 export FCEDIT="$EDITOR"
+export PS1='$ '
 
 # Alias hub to g if hub is in $PATH
 # Technically this is slighly flawed since it requires reloading the shell to load when adding or deleting the package.
