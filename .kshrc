@@ -1,3 +1,4 @@
+# All the variables set here are documented i KSH(1)
 HISTFILE=$HOME/.ksh_history
 HISTSIZE=20000
 
@@ -9,7 +10,7 @@ set -o emacs
 export PATH="$HOME/bin:$PATH"
 export LANG=en_US.UTF-8
 export PAGER=less
-export FCEDIT=nvi # See KSH(1)
+export FCEDIT=nvi
 
 alias un-tar.gz='tar -xzf'
 alias c='cd'
