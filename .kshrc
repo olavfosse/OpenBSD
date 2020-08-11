@@ -1,5 +1,5 @@
 export PATH="$HOME/bin:$PATH"
-export EDITOR=vi
+export EDITOR=nvi
 export FCEDIT=$EDITOR
 export PAGER=less
 export LESS='-iMRS -x2'
