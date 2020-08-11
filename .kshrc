@@ -19,5 +19,6 @@ alias m='mkdir -p'
 alias p='pwd'
 alias r='rm -d'
 alias v='nvi'
-alias shiina-shell='ssh shiina.fossegr.im'
-alias shiina-files='sftp shiina.fossegr.im'
+
+set -A complete_sftp shiina.fossegr.im
+set -A complete_ssh shiina.fossegr.im
