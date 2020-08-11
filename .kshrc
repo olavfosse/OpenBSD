@@ -9,7 +9,6 @@ export PATH="$HOME/bin:$PATH"
 export EDITOR=nvi
 set -o emacs
 
-export LANG=en_US.UTF-8
 export PAGER=less
 export FCEDIT=nvi
 
