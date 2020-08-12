@@ -3,4 +3,12 @@
 # ------------------------------------------------------------------------------
 # Run hub if it is in $PATH otherwise run git
 #
-(which hub > /dev/null 2>&1 && hub "$@") || git "$@"
+function hub-is-in-path {
+	which hub > /dev/null 2>&1
+}
+
+if hub-is-in-path; then
+	hub "$@"
+else
+	git "$@"
+fi
