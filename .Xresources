@@ -13,8 +13,8 @@ Xft.rgba      : rgb
 XIdle*position : sw
 ! and leave it there for one second.
 XIdle*delay    : 1
-! also lock screen after 5 minutes idle
-XIdle*timeout  : 300
+! also lock screen after one hour
+XIdle*timeout  : 3600
 
 ! ===== xlock
 ! actually turn the backlight off

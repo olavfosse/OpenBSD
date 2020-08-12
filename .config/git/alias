@@ -1,5 +1,5 @@
 # Use the following form
-# [lowercase character representing the command or flag]*
+# [lowercase head character in command or flag]*
 [alias]
         # [a]dd
         a = add
