@@ -88,6 +88,12 @@ doas rcctl set apmd flags -A
 doas rcctl start apmd
 #+END_SRC
 
+** Compile src/*
+=src/= is for single file non-script source code, scripts go to =sh/=. Both are in =$PATH=. They are compiled with a makefile, compiling takes a short time since it is only simple C programs so far. The programs have no dependencies, outside of base that is.
+#+BEGIN_SRC sh
+mkdir ~/bin && make -C ~/src
+#+END_SRC
+
 ** Conclusion
 If you are to use this configuration is suggest taking a peek at all the files. There are only 14 non-directory files and they should all be well readable. If you do not understand something, that is a bug and I will do my best to fix it :). Remember that man pages are your friend and are worth consulting before me for your own sake. The OpenBSD man pages are much better than that of Linux / GNU and most other software projects you will run into.
 
