@@ -7,6 +7,9 @@
 !bin
 !bin/*
 
+!src
+!src/*
+
 !.config
 !.config/git
 # Glob is not used here since user data is stored in .config/git/user
