@@ -13,7 +13,6 @@
 #include <errno.h>
 #include <limits.h>
 #include <stdlib.h>
-// I could use ifdefs for the errno upper limits. It might be invalidated, by time, but at least it would make it portable for now.
 
 void die();
 
