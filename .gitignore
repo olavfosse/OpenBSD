@@ -4,8 +4,8 @@
 !README.org
 !.gitignore
 
-!bin
-!bin/*
+!sh
+!sh/*
 
 !src
 !src/*
