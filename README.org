@@ -77,10 +77,11 @@ nvi is a vi clone that supports wide characters. Aside from that it is mostly th
 doas pkg_add nvi
 #+END_SRC
 
-mupdf is a simple pdf viewer that just works
+I use zathura/mupdf for pdf viewing. It has some really comfy features for navigating the books (try pressing TAB inside a pdf ;-)). Mupdf by itself is a bit quicker and cleaner, but imo the extra features of zathura are worth it.
 #+BEGIN_SRC sh
-doas pkg_add mupdf
+doas pkg_add zathura-pdf-mupdf
 #+END_SRC
+
 
 I also install hub although it is not in any way coupled with the res t of the system.
 #+BEGIN_SRC sh
