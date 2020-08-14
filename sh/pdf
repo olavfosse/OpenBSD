@@ -2,4 +2,4 @@
 # Synopsis
 # ------------------------------------------------------------------------------
 # Open a pdf in the background 
-nohup mupdf "$1" > /dev/null &
+nohup zathura "$1" > /dev/null &
