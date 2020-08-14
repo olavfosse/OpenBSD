@@ -89,7 +89,7 @@ doas rcctl start apmd
 #+END_SRC
 
 ** Compile src/*
-=src/= is for single file non-script source code, scripts go to =sh/=. Both are in =$PATH=. They are compiled with a makefile, compiling takes a short time since it is only simple C programs so far. The programs have no dependencies, outside of base that is.
+There are two directories for local executables, =sh/= and =bin/=. Shell- and other scripts live in =sh/= whereas compiled executables live in =bin/=. =bin/= is not version controlled, but the source code is available in =src/=. To compile and deploy them to =bin/= simply run the following command. No external dependendencies or further setup is required.
 #+BEGIN_SRC sh
 mkdir ~/bin && make -C ~/src
 #+END_SRC
