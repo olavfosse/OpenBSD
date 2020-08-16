@@ -1,6 +1,8 @@
-# Use the following form
-# [lowercase head character in command or flag]*
 [alias]
+	commits-since = rev-list --count HEAD --since 
+
+	# The following commands shall use the following form
+	# [lowercase head character in command or flag]*
         # [a]dd
         a = add
 	ah = add --help
@@ -45,3 +47,6 @@
         # [t]ag
         t = tag
         th = tag --help
+
+	# [i]nit
+	i = init
