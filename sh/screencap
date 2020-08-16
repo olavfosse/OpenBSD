@@ -1,0 +1,8 @@
+#!/bin/sh
+# Synopsis
+# ------------------------------------------------------------------------------
+# Capture screen with audio
+#
+# Usage
+# ------------------------------------------------------------------------------# screencap output-file
+ffmpeg -f sndio -i snd/0.mon -video_size 1280x800 -framerate 30 -f x11grab -i :0.0 "$1"

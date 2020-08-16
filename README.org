@@ -101,6 +101,14 @@ There are two directories for local executables, =sh/= and =bin/=. Shell- and ot
 mkdir ~/bin && make -C ~/src
 #+END_SRC
 
+** Audio recording
+The following commands configures an audio device which plays all the audio output of the machine. This is used by =sh/screencap= to make screen recordings with audio.
+
+#+BEGIN_SRC sh
+rcctl set sndiod flags -s default -m play,mon -s mon
+rcctl restart sndiod
+#+END_SRC
+
 ** Conclusion
 If you are to use this configuration is suggest taking a peek at all the files. There are only 14 non-directory files and they should all be well readable. If you do not understand something, that is a bug and I will do my best to fix it :). Remember that man pages are your friend and are worth consulting before me for your own sake. The OpenBSD man pages are much better than that of Linux / GNU and most other software projects you will run into.
 
