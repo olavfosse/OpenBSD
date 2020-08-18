@@ -5,8 +5,8 @@
 #
 # Usage
 # ------------------------------------------------------------------------------
-# $ songs download # Download songs
-# $ songs play     # Play songs
+# $ songs download
+# $ songs play
 #
 
 if [ "$1" = play ]; then
@@ -42,7 +42,6 @@ elif [ "$1" = download ]; then
 	ftp https://ftp.openbsd.org/pub/OpenBSD/songs/songsi.ogg  # si
 	ftp https://ftp.openbsd.org/pub/OpenBSD/songs/songty.ogg  # ty
 else
-	echo Usage
-	echo '$ songs download # Download songs'
-	echo '$ songs play     # Play downloaded songs'
+	echo 'usage: songs download'
+	echo '       songs play'
 fi
