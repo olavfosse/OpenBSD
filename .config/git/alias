@@ -29,6 +29,7 @@
 	lh = log --help
 	lp = log --patch
 	lpf = log --patch --follow # View history of file including renames
+	lgdo = log --graph --decorate --oneline
 
         # [p]ush
         p = push
