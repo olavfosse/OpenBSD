@@ -50,3 +50,4 @@
 
 	# [i]nit
 	i = init
+	ih = init --help
