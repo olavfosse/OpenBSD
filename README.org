@@ -85,7 +85,7 @@ doas pkg_add zathura-pdf-mupdf
 #+END_SRC
 
 
-I also install hub although it is not in any way coupled with the res t of the system.
+I also install hub although it is not strictly needed. The =g= alias runs hub if it is installed and otherwise runs vanilla git.
 #+BEGIN_SRC sh
 doas pkg_add hub
 #+END_SRC
