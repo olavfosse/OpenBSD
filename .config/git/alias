@@ -36,6 +36,7 @@
         # [p]ush
         p = push
         ph = push --help
+	pt = push --tags
         pot = push origin tag # "push origin" by itself also works, but this is more explicit
 	phm = push heroku master
 
