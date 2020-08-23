@@ -1,6 +1,7 @@
 [alias]
 	commits-since = rev-list --count HEAD --since 
 	contributors = shortlog -s -n --all --no-merges
+	view-aliases = config --get-regexp ^alias
 
 	# The following commands shall use the following form
 	# [lowercase head character in command or flag]*
