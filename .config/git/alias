@@ -51,6 +51,7 @@
         # [t]ag
         t = tag
         th = tag --help
+	tl = tag --list
 
 	# [i]nit
 	i = init
