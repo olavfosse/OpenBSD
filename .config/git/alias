@@ -37,6 +37,7 @@
         p = push
         ph = push --help
         pot = push origin tag # "push origin" by itself also works, but this is more explicit
+	phm = push heroku master
 
         # [r]estore
         r = restore
