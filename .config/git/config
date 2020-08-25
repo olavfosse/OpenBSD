@@ -1,3 +1,5 @@
 [include]
 	path = alias
 	path = user # This contains user data and is therefore not version controlled
+[core]
+	editor = vi
