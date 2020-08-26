@@ -12,6 +12,8 @@
 
         # [b]ranch
         b = branch
+	ba = branch --all
+	br = branch --remote
         bh = branch --help
 
         # [c]ommit
