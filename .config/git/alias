@@ -8,6 +8,7 @@
 	# [lowercase head character in command or flag]*
         # [a]dd
         a = add
+	aa = add --all
 	ah = add --help
         ap = add --patch
 
