@@ -55,6 +55,7 @@
 
         # [t]ag
         t = tag
+	td = tag --delete
         th = tag --help
 
 	# [i]nit
