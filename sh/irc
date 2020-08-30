@@ -1,2 +1,2 @@
 #!/bin/sh
-ssh shiina.fossegr.im -t "tmux new-session -A -s irc"
+tmux new-session -A -s irc
