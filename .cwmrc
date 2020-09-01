@@ -89,3 +89,4 @@ command xterm  xterm
 command chrome "chrome --enable-unveil"
 command xcalc  xcalc
 command emacs emacs
+command zahtura zathura
