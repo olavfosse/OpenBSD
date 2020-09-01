@@ -43,6 +43,7 @@
 	pt = push --tags
         pot = push origin tag # "push origin" by itself also works, but this is more explicit
 	phm = push heroku master
+	psom = push --set-upstream origin master
 
         # [r]estore
         r = restore
@@ -57,6 +58,9 @@
         t = tag
 	td = tag --delete
         th = tag --help
+	ta = tag --annotate
+	tam = tag --annotate --message
+	tame = tag --annotate --message '' # e for empty message
 
 	# [i]nit
 	i = init
