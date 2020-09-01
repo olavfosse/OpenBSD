@@ -48,13 +48,13 @@ bind-key 4-m window-maximize
 bind-key 4-equal window-vmaximize
 bind-key 4S-equal window-hmaximize
 
-# mod + H,J,K,L = move window left, down, up, right 10 pixels
-bind-key 4-h window-move-left-big
-bind-key 4-j window-move-down-big
-bind-key 4-k window-move-up-big
-bind-key 4-l window-move-right-big
+# mod + H,J,K,L = resize window left, down, up, right by 10 pixels
+bind-key 4-h window-resize-left
+bind-key 4-j window-resize-down
+bind-key 4-k window-resize-up
+bind-key 4-l window-resize-right
 
-# mod + shift + H,J,K,L = resize window left, down, up, right by 10 pixels
+# mod + shift + H,J,K,L = resize window left, down, up, right by more than 10 pixels
 bind-key 4S-h window-resize-left-big
 bind-key 4S-j window-resize-down-big
 bind-key 4S-k window-resize-up-big
