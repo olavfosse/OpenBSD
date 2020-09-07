@@ -55,7 +55,7 @@
         sh = status --help
 
         # [t]ag
-        t = tag
+        # t = tag # t is commented to remind me off using annotated tags
 	td = tag --delete
         th = tag --help
 	ta = tag --annotate
