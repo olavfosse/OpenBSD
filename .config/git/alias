@@ -39,6 +39,7 @@
 
         # [p]ush
         p = push
+	pd = push --delete # Used for deleting remote tags
         ph = push --help
 	pt = push --tags
         pot = push origin tag # "push origin" by itself also works, but this is more explicit
