@@ -1,0 +1,18 @@
+# Default aliases
+127.0.0.1	localhost
+::1		localhost
+# Blacklist
+127.0.0.1	youtube.com
+127.0.0.1	www.youtube.com
+127.0.0.1	4chan.org
+127.0.0.1	www.4chan.org
+127.0.0.1	4channel.org
+127.0.0.1	www.4channel.org
+127.0.0.1	discord.com
+127.0.0.1	www.discord.com
+127.0.0.1	discord.app
+127.0.0.1	www.discord.app
+127.0.0.1	freak.no
+127.0.0.1	www.freak.no
+127.0.0.1	nyaa.si
+127.0.0.1	www.nyaa.si

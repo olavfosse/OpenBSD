@@ -23,3 +23,7 @@
 !.profile
 !.xsession
 !.exrc
+
+!root
+!root/etc
+!root/etc/*
