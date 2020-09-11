@@ -43,6 +43,10 @@
 	lpf = log --patch --follow # View history of file including renames
 	lgdo = log --graph --decorate --oneline
 
+	# check[o]ut
+	o = checkout
+	oh = checkout --help
+
         # [p]ush
         p = push
         ph = push --help
