@@ -8,20 +8,23 @@
 	# [lowercase head character in command or flag]*
         # [a]dd
         a = add
-	aa = add --all
 	ah = add --help
+
+	aa = add --all
         ap = add --patch
 
         # [b]ranch
         b = branch
+        bh = branch --help
+
 	ba = branch --all
 	bd = branch --delete
 	br = branch --remote
-        bh = branch --help
 
         # [c]ommit
         c = commit
         ch = commit --help
+
         ca = commit --amend
         cm = commit --message
         cam = commit --amend --message
@@ -29,19 +32,22 @@
         # [d]iff
         d = diff
         dh = diff --help
+
         ds = diff --staged
 
 	# [l]og
 	l = log
 	lh = log --help
+
 	lp = log --patch
 	lpf = log --patch --follow # View history of file including renames
 	lgdo = log --graph --decorate --oneline
 
         # [p]ush
         p = push
-	pd = push --delete # Used for deleting remote tags
         ph = push --help
+
+	pd = push --delete # Used for deleting remote tags
         pot = push origin tag # "push origin" by itself also works, but this is more explicit
 	phm = push heroku master
 	psom = push --set-upstream origin master
@@ -49,6 +55,7 @@
         # [r]estore
         r = restore
         rh = restore --help
+
         rs = restore --staged
 
         # [s]tatus
@@ -57,9 +64,10 @@
 
         # [t]ag
         t = ! echo "This alias is disabled to facilitate getting used to the annotated tag workflow. Use tl for listing tags and ta, tam and tame for tagging."
+        th = tag --help
+
 	tl = tag --list
 	td = tag --delete
-        th = tag --help
 	ta = tag --annotate
 	tam = tag --annotate --message
 	tame = tag --annotate --message '' # e for empty message
