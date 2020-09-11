@@ -55,7 +55,8 @@
         sh = status --help
 
         # [t]ag
-        # t = tag # t is commented to remind me off using annotated tags
+        t = ! echo "This alias is disabled to facilitate getting used to the annotated tag workflow. Use tl for listing tags and ta, tam and tame for tagging."
+	tl = tag --list
 	td = tag --delete
         th = tag --help
 	ta = tag --annotate
