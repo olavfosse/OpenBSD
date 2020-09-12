@@ -53,6 +53,9 @@
 	o = checkout
 	oh = checkout --help
 
+	ob = checkout -b
+	oo = checkout --orphan # Creates branch with no parent commit
+
         # [p]ush
         p = push
         ph = push --help
