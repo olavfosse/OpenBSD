@@ -19,6 +19,7 @@
 	ba = branch --all
 	bd = branch --delete
 	br = branch --remote
+	bm = branch --move
 
         # [c]ommit
         c = commit
