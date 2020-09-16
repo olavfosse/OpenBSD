@@ -1,1 +1,1 @@
-Here goes programs that need to be compiled or otherwise processed before movingto bin/. Run =make= to build.
+Here goes programs that need to be compiled or otherwise processed before moving to bin/. Run =make= to build.
