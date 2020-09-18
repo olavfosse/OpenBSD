@@ -4,6 +4,7 @@
 	aliases = config --get-regexp ^alias
 	push-set-upstream-to-remote-branch = ! git push --set-upstream origin "$(git branch --show-current)"
 	psutrb = push-set-upstream-to-remote-branch
+	tree = lgdo
 
 	# The following commands shall use the following form
 	# [lowercase head character in command or flag]*
